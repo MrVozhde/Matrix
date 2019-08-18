@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 	int matris2[row][column];
 	int sum[row][column];	
 
-	cout << "Enter the first matris (rows to rows , right to left )" << endl;
+	cout << "Enter the first matris :" << endl;
 	for ( int i = 0 ; i<row ; i++){
 		for ( int j = 0 ; j<column ; j++){
 			cin >> matris1[i][j];
@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
 	}
 	
 	
-	cout << "Enter the second matris (rows to rows , right to left)" << endl;	
+	cout << "Enter the second matris :" << endl;	
 	for ( int i = 0 ; i<row ; i++){
 		for ( int j = 0 ; j<column ; j++){
 			cin >> matris2[i][j];
